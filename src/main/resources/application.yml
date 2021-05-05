@@ -1,0 +1,19 @@
+spring:
+  mustache:
+    suffix: .html
+viewname:
+  chatroom:
+    list: /chat/rooms
+    detail: /chat/room-detail
+
+---
+spring:
+  config:
+    activate:
+      on-profile: stomp
+viewname:
+  chatroom:
+    list: /chat1/rooms
+    detail: /chat1/room-detail
+
+
